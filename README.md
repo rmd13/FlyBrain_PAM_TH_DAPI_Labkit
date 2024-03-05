@@ -7,7 +7,7 @@ https://github.com/rmd13/FlyBrain_PAM_TH_DAPI_Labkit
 # Materials required:
 1. Z-stack tif files of Drosophila brain PAM cluster image on anti-Tyrosine Hydroxylase(TH) channel, with a image size x=512, y=512, z between 10 and 25, with an interval of 0.34 um. The PAM cluster from one half of brain was freely rotated and zoomed when necessary to fit the entire PAM cluster into the image region. Avoid overexposure.
 2. Matlab (Mathwork).
-3. Fiji/Imagej[https://imagej.net/software/fiji/downloads], with labkit[https://imagej.net/imagej-wiki-static/Labkit] installed.
+3. Fiji/Imagej<https://imagej.net/software/fiji/downloads>, with labkit<https://imagej.net/imagej-wiki-static/Labkit> installed.
 4. A computer with dedicated high-end GPU, such as Quadro P6000.
 
 # Installation guide
