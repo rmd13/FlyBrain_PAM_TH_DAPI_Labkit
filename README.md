@@ -13,7 +13,7 @@ https://github.com/rmd13/FlyBrain_PAM_TH_DAPI_Labkit
 # Installation guide
 operating system:Windows 8/10+
 programing language: Matlab
-software: Matlab(2014~now), Fiji and Labkit (if not included)
+software: Matlab(2014-now), Fiji and Labkit (if not included)
 dependencies: no
 typical install time on a current computer: 1~3 hours.
 
