@@ -22,11 +22,11 @@ No.
 # 2. Installation guide
 
 ## Instructions
-1. operating system:Windows 8/10+.
-2. programing language: Matlab.
-3. software: Matlab(2014-now), Fiji and Labkit (if not included).
-4. dependencies: no.
-5. typical install time on a current computer: 1~3 hours.
+1. Operating system:Windows 8/10+.
+2. Programing language: Matlab.
+3. Software: Matlab(2014-now), Fiji and Labkit (if not included).
+4. Dependencies: no.
+5. Typical install time on a current computer: 1~3 hours.
 
 ## Typical install time on a "normal" desktop computer
 1~3 hours.
@@ -48,13 +48,14 @@ No.
 A new tif stack file with corrected mask.
 
 ## Expected run time for demo on a "normal" desktop computer
- 5~20 minnutes
+ 2~20 minnutes, dependent on hardware and GPU.
 
 # 4. Instructions for use
-## How to run the software on your data
-change the demo TH-stack to your TH-stacks, then run again.
 
-# a link to the code in an open source repository
+## How to run the software on your data
+Change the demo TH-stack to your TH-stacks, then run again.
+
+# A link to the code in an open source repository
 https://github.com/rmd13/FlyBrain_PAM_TH_DAPI_Labkit
 
 # License
