@@ -1,23 +1,39 @@
-# FlyBrain_PAM_TH_DAPI_Labkit-version 1.0
+# FlyBrain_PAM_TH_DAPI_Labkit-version 1.0-source code
 Predict the dopaminergic neuron's cell bodies in the PAM cluster of Drosophila brain stained with anti-TH antibody.
 
-# link to the code
-https://github.com/rmd13/FlyBrain_PAM_TH_DAPI_Labkit
+# A small real dataset to demo the code
+"57C10.J7.mino.IR-day32-PAM-0023.tif"
 
-# Materials required:
+# 1. System requirements
+
+## All software dependencies and operating systems (including version numbers)
 1. Z-stack tif files of Drosophila brain PAM cluster image on anti-Tyrosine Hydroxylase(TH) channel, with a image size x=512, y=512, z between 10 and 25, with an interval of 0.34 um. The PAM cluster from one half of brain was freely rotated and zoomed when necessary to fit the entire PAM cluster into the image region. Avoid overexposure.
 2. Matlab (Mathwork).
 3. Fiji/Imagej<https://imagej.net/software/fiji/downloads>, with labkit<https://imagej.net/imagej-wiki-static/Labkit> installed.
 4. A computer with dedicated high-end GPU, such as Quadro P6000.
+5. operating system:Windows 8/10+.
 
-# Installation guide
+## Versions the code has been tested on
+ver 1.0 
+
+## Any required non-standard hardware
+No.
+
+# 2. Installation guide
+
+## Instructions
 1. operating system:Windows 8/10+.
 2. programing language: Matlab.
 3. software: Matlab(2014-now), Fiji and Labkit (if not included).
 4. dependencies: no.
 5. typical install time on a current computer: 1~3 hours.
 
-# demo with example data (typical run time: 5~10 minnutes)
+## Typical install time on a "normal" desktop computer
+1~3 hours.
+
+# 3. Demo
+
+## Instructions to run on data
 1. Run the Fiji and open one TH stack (can use the demo TH-stack), then import the image into the Labkit.
 2. Clear the pre-defined classes by clickling the delete/Remove button on left.
 3. Load the "57C10.eGFP.IR-day32-PAM-TH-add5.classifier" into the Labkit using menu "load classifier".
@@ -27,6 +43,19 @@ https://github.com/rmd13/FlyBrain_PAM_TH_DAPI_Labkit
    Edit the "labkit_output_folder" to the output folder from step 4.
    Create another empty output folder, specify it by edit "labkit_output_correct_folder".
 7. Run the "Correct_Labkit_TH.m" in Matlab. You will get corrected mask z-stack.
+
+## Expected output
+A new tif stack file with corrected mask.
+
+## Expected run time for demo on a "normal" desktop computer
+ 5~20 minnutes
+
+# 4. Instructions for use
+## How to run the software on your data
+change the demo TH-stack to your TH-stacks, then run again.
+
+# a link to the code in an open source repository
+https://github.com/rmd13/FlyBrain_PAM_TH_DAPI_Labkit
 
 # License
 MIT license
