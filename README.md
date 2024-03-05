@@ -11,11 +11,11 @@ https://github.com/rmd13/FlyBrain_PAM_TH_DAPI_Labkit
 4. A computer with dedicated high-end GPU, such as Quadro P6000.
 
 # Installation guide
-operating system:Windows 8/10+
-programing language: Matlab
-software: Matlab(2014-now), Fiji and Labkit (if not included)
-dependencies: no
-typical install time on a current computer: 1~3 hours.
+1. operating system:Windows 8/10+.
+2. programing language: Matlab.
+3. software: Matlab(2014-now), Fiji and Labkit (if not included).
+4. dependencies: no.
+5. typical install time on a current computer: 1~3 hours.
 
 # demo with example data (typical run time: 5~10 minnutes)
 1. Run the Fiji and open one TH stack (can use the demo TH-stack), then import the image into the Labkit.
