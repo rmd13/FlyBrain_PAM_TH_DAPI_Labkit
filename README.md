@@ -3,6 +3,7 @@ Predict the dopaminergic neuron's cell bodies in the PAM cluster of Drosophila b
 
 # A small real dataset to demo the code
 "57C10.J7.mino.IR-day32-PAM-0023.tif"
+download from https://drive.google.com/file/d/1jgsVugTOHrYvswwiya8nmQ7ub6NoeWBT/view?usp=sharing
 
 # 1. System requirements
 
@@ -10,7 +11,7 @@ Predict the dopaminergic neuron's cell bodies in the PAM cluster of Drosophila b
 1. Z-stack tif files of Drosophila brain PAM cluster image on anti-Tyrosine Hydroxylase(TH) channel, with a image size x=512, y=512, z between 10 and 25, with an interval of 0.34 um.
 2. The PAM cluster from one half of brain was freely rotated and zoomed when necessary to fit the entire PAM cluster into the image region. Avoid overexposure.
 3. Matlab (Mathwork).
-4. Fiji/Imagej<https://imagej.net/software/fiji/downloads>, with labkit<https://imagej.net/imagej-wiki-static/Labkit> installed.
+4. Fiji/Imagej <https://imagej.net/software/fiji/downloads>, with labkit <https://imagej.net/imagej-wiki-static/Labkit> installed.
 5. A computer with dedicated high-end GPU, such as Quadro P6000.
 6. operating system:Windows 8/10+.
 
