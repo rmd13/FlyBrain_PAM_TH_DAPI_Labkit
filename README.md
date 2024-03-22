@@ -38,12 +38,12 @@ No.
 1. Run the Fiji and open one TH stack (can use the demo TH-stack, download from https://drive.google.com/file/d/1jgsVugTOHrYvswwiya8nmQ7ub6NoeWBT/view?usp=sharing), then import the image into the Labkit.
 2. Clear the pre-defined classes by clickling the delete/Remove button on left.
 3. Load the "57C10.eGFP.IR-day32-PAM-TH-add5.classifier" into the Labkit using menu "load classifier". The classifier file can be donwloaded from https://drive.google.com/file/d/1yVWoFv80-CpwOa5xQNW6oAHPMgEcTqqI/view?usp=drive_link
-4. 5. Click "Batch" menu, and input the folder path that contains all the TH channel z-stacks (can use the demo TH-stack) only, also create an empty output folder and specify it.
-6. Start run batch.
-7. After step 5, then open "Correct_Labkit_TH.m" in Matlab.
+4. Click "Batch" menu, and input the folder path that contains all the TH channel z-stacks (can use the demo TH-stack) only, also create an empty output folder and specify it.
+5. Start run batch.
+6. After step 5, then open "Correct_Labkit_TH.m" in Matlab.
    Edit the "labkit_output_folder" to the output folder from step 4.
    Create another empty output folder, specify it by edit "labkit_output_correct_folder".
-8. Run the "Correct_Labkit_TH.m" in Matlab. You will get corrected mask z-stack.
+7. Run the "Correct_Labkit_TH.m" in Matlab. You will get corrected mask z-stack.
 
 ## Expected output
 A new tif stack file with corrected mask.
